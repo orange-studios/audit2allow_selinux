@@ -1,0 +1,4 @@
+
+
+#============= init ==============
+allow init self:capability dac_read_search;

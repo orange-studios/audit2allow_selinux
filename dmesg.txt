@@ -1,0 +1,10 @@
+[    6.828006] audit: type=1400 audit(12.031:16): avc:  denied  { dac_read_search } for  pid=1 comm="init" capability=2  scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability permissive=0
+[    6.850543] audit: type=1400 audit(12.031:17): avc:  denied  { dac_read_search } for  pid=1 comm="init" capability=2  scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability permissive=0
+[    6.867702] audit: type=1400 audit(12.031:18): avc:  denied  { dac_read_search } for  pid=1 comm="init" capability=2  scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability permissive=0
+[    6.884840] audit: type=1400 audit(12.031:19): avc:  denied  { dac_read_search } for  pid=1 comm="init" capability=2  scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability permissive=0
+[    6.901964] audit: type=1400 audit(12.031:20): avc:  denied  { dac_read_search } for  pid=1 comm="init" capability=2  scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability permissive=0
+[    6.919084] audit: type=1400 audit(12.031:21): avc:  denied  { dac_read_search } for  pid=1 comm="init" capability=2  scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability permissive=0
+[    6.936195] audit: type=1400 audit(12.031:22): avc:  denied  { dac_read_search } for  pid=1 comm="init" capability=2  scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability permissive=0
+[    6.953371] audit: type=1400 audit(12.031:23): avc:  denied  { dac_read_search } for  pid=1 comm="init" capability=2  scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability permissive=0
+[    6.970516] audit: type=1400 audit(12.031:24): avc:  denied  { dac_read_search } for  pid=1 comm="init" capability=2  scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability permissive=0
+[    6.987649] audit: type=1400 audit(12.031:25): avc:  denied  { dac_read_search } for  pid=1 comm="init" capability=2  scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=capability permissive=0

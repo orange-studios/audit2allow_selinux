@@ -1,0 +1,25 @@
+
+
+#============= approotd ==============
+allow approotd shell_exec:file { execute execute_no_trans open read };
+
+#============= hal_bluetooth_default ==============
+allow hal_bluetooth_default bluetooth_data_file:dir search;
+allow hal_bluetooth_default bluetooth_data_file:file open;
+allow hal_bluetooth_default self:unix_stream_socket ioctl;
+
+#============= hal_health_default ==============
+allow hal_health_default sysfs:file { getattr open read };
+
+#============= init ==============
+allow init self:capability dac_read_search;
+
+#============= installd ==============
+allow installd self:capability dac_read_search;
+
+#============= system_app ==============
+allow system_app approotd:unix_stream_socket connectto;
+allow system_app proc_vmstat:file { getattr open read };
+
+#============= zygote ==============
+allow zygote self:capability dac_read_search;
